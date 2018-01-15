@@ -1,8 +1,9 @@
 package Bank;
 
 public class SavingsAccount extends Account {
-        private double d;
+
     public SavingsAccount(String id, double initialDeposit) {
+        private double d;
         super(id);//the id object is taken from the Account class method.
          d = initialDeposit;//the initial deposit is initialised as d.
     }
@@ -13,12 +14,15 @@ public class SavingsAccount extends Account {
 
         //if(amount <= 10) {
 
-    //if the amount is bigger than the balance then it will print out insuficient funds, else it will take off the amount from the withdraw amount.
-            if (amount > balance) {
-                System.out.println("Insufficient Funds!");
+    //if the amount is bigger than the balance then it will print out insufficient funds, else it will take off the amount from the withdraw amount.
+
+    3
+
+        if (amount > balance) {
+                System.out.println("Insufficient Funds!");//prints out insufficient funds
                 return false;
             } else {
-                balance = balance - withdraw(amount);//the balanace will be subtracted from the withdraw amount.
+             balance.equals(double amount);//the balance will be subtracted from the withdraw amount.
                 return true;
             }
         //}
